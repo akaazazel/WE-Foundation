@@ -1,0 +1,44 @@
+:root {
+  --primary-color: #002642;
+  --font-color: #e5dada;
+  --accent-color: #e59500;
+}
+
+.donate_page_content {
+  height: 90vh;
+  width: 100%;
+  background-image: url("resources\\donate_bakcground.png");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  padding-top: 150px;
+}
+
+.donate_page_content p {
+  font-size: 35px;
+  color: var(--font-color);
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.payment_form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.payment_form input {
+  width: 100%;
+  border: none;
+  margin-bottom: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.payment_form button {
+  width: 50%;
+  background-color: var(--accent-color);
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
