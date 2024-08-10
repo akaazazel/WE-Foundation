@@ -414,3 +414,110 @@ body {
   font-weight: 600;
   font-size: 22px;
 }
+
+@media (max-width: 480px) {
+  .header {
+    height: 120px;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .about_us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .about_us_image_container {
+    display: none;
+  }
+
+  .about_content {
+    padding: 0;
+  }
+
+  .about_heading {
+    font-size: 20px;
+  }
+
+  .about_description {
+    font-size: 20px;
+    padding: 0 50px;
+  }
+
+  .content_quote p {
+    font-size: 18px;
+  }
+
+  .stats_box {
+    width: 150px;
+    height: 150px;
+  }
+
+  .stats_head {
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  .stats_info {
+    font-size: 10px;
+    font-weight: 600;
+    margin: 0 15px;
+  }
+
+  .content_donate {
+    height: 500px;
+  }
+
+  .content-stories {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+  }
+
+  .image_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .image {
+    width: 200px;
+    height: 100px;
+    position: relative;
+  }
+
+  .image_slider {
+    width: 500px;
+    display: flex;
+    overflow-x: scroll;
+  }
+
+  .footer {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+  }
+
+  .footer_navigation ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
